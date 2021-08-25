@@ -1,3 +1,5 @@
+Use std:: str::FromStr;
+
 pub enum Method {
     GET,
     DELETE,
@@ -9,3 +11,5 @@ pub enum Method {
     TRACE,
     PATCH,
 }
+
+impl
